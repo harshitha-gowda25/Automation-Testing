@@ -46,30 +46,6 @@ sign_in=driver.find_element('xpath','//*[@id="customer_login"]/div[2]/div[3]/inp
 sign_in.click()
 time.sleep(5)
 
-# search11=driver.find_element('xpath','//*[@id="site-control"]/div[2]/div[2]/a[2]')
-# search11.click()
-# time.sleep(2)
-
-# search=driver.find_element('xpath','//*[@id="search-modal"]/div/div/form/div/input')
-# search.click()
-# search.send_keys('wallets')
-# time.sleep(2)
-
-# #to select from dropdown of wallets
-# select1=driver.find_element('xpath','/html/body/div[19]/div[1]/div[1]/div[2]/div[1]/div[2]/button')
-# select1.click()
-# time.sleep(2)
-
-# search=driver.find_element('xpath','//*[@id="search-modal"]/div/div/form/div/input')
-# search.click()
-# search.send_keys('shoes')
-# time.sleep(2)
-
-# #to select from dropdown of wallets
-# select1=driver.find_element('xpath','/html/body/div[19]/div[1]/div[1]/div[2]/div[1]/div[2]/button')
-# select1.click()
-# time.sleep(2)
-
 #new-launches
 new_launches=driver.find_element('xpath','//*[@id="site-control"]/div[2]/div[1]/div/div/ul/li[1]/a')
 new_launches.click()
